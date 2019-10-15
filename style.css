@@ -1,0 +1,269 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+
+.nav-wap {
+    height: 90px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+    /*border-bottom: 1px solid black;*/
+    box-shadow: 0 2px 3px -1px #101137;
+}
+
+.nav {
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+
+.nav-item {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4a4a4a;
+    /*font-weight: 400;*/
+    font-size: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #101137;
+    padding-top: 2px;
+}
+
+.log-wap {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+
+.logo-title {
+    font-size: 24px;
+    margin-left: 3%;
+}
+
+.log-wap img {
+    width: 90px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+}
+
+.widge {
+    background-color: white;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.widge2 {
+    background-color: #EEE;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.widge-title-wap {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.widge-title1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.widge-title2 {
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.widge-title-split {
+    width: 90px;
+    height: 4px;
+    background-color: #e64266;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.widge-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.ys-item-wap {
+    width: 64%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ys-item {
+    background-color: rgb(0, 187, 252);
+    width: 23%;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.to-info-btn {
+    border: 2px solid white;
+    color: white;
+    width: 70%;
+    font-size: 14px;
+    background: none;
+    border-radius: 0px;
+    padding: 4px 40px 4px 40px;
+}
+
+.ys-item-img {
+    font-size: 72px;
+    color: white;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ys-item-content {
+    /*margin-top: 10%;*/
+    /*margin-bottom: 10%;*/
+    height: 30%;
+    width: 80%;
+    font-size: 16px;
+    color: white;
+}
+
+.vr-custom {
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+}
+
+.vr-custom-left {
+    width: 64%;
+}
+
+.vr-custom-left img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.vr-custom-right img {
+    width: 100%;
+    height: 205px;
+    object-fit: cover;
+}
+
+.vr-custom-right {
+    width: 33%;
+}
+
+.vr-custom-img-wap {
+
+}
+
+.vr-custom-info {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.vr-custom-info-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: -8px;
+}
+
+.vr-custom-info-desc {
+    color: #555555;
+    font-size: 14px;
+}
+
+.service {
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+}
+
+.service-item-wap {
+    width: 31%;
+    height: 320px;
+    background-color: white;
+    padding: 18px 18px 18px 18px;
+}
+
+.service-item {
+    background-color: rgba(245, 245, 245, 0.97);
+    height: 100%;
+}
+
+.service-item-wap img {
+    width: 100%;
+    object-fit: cover;
+    height: 142px;
+    margin-bottom: 2px;
+}
+
+.service-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+
+.service-item-desc {
+    color: #888888;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 12px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: #101137;
+}
