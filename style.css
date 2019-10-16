@@ -129,6 +129,7 @@ body {
     width: 1080px;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 10px;
 }
 
 .ys-item {
@@ -223,6 +224,7 @@ body {
     display: flex;
     width: 1080px;
     justify-content: space-around;
+    padding-bottom: 10px;
 }
 
 .service-item-wap {
