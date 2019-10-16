@@ -126,7 +126,7 @@ body {
 }
 
 .ys-item-wap {
-    width: 64%;
+    width: 1080px;
     display: flex;
     justify-content: space-around;
 }
@@ -134,7 +134,7 @@ body {
 .ys-item {
     background-color: rgb(0, 187, 252);
     width: 23%;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
@@ -172,7 +172,7 @@ body {
 .vr-custom {
     display: flex;
     justify-content: space-between;
-    width: 62%;
+    width: 1080px;
 }
 
 .vr-custom-left {
@@ -221,7 +221,7 @@ body {
 
 .service {
     display: flex;
-    width: 65%;
+    width: 1080px;
     justify-content: space-around;
 }
 
@@ -269,7 +269,7 @@ body {
 }
 
 .logos {
-    width: 1024px;
+    width: 1080px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
