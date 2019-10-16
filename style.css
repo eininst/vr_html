@@ -17,7 +17,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 99;
+    z-index: 9999;
     background-color: white;
     /*border-bottom: 1px solid black;*/
     box-shadow: 0 2px 3px -1px #101137;
@@ -76,15 +76,15 @@ body {
 .widge {
     background-color: white;
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 90px;
 }
 
 .widge2 {
     background-color: #EEE;
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 90px;
 }
 
 .widge-title-wap {
@@ -172,11 +172,11 @@ body {
 .vr-custom {
     display: flex;
     justify-content: space-between;
-    width: 68%;
+    width: 62%;
 }
 
 .vr-custom-left {
-    width: 64%;
+    width: 64.5%;
 }
 
 .vr-custom-left img {
@@ -262,8 +262,29 @@ body {
     padding-right: 10px;
 }
 
-.footer{
+.footer {
     height: 200px;
     width: 100%;
     background-color: #101137;
+}
+
+.logos {
+    width: 1024px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-item {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    width: 90px;
+    height: 64px;
+}
+
+.logo-item img {
+    width: 100%;
+    height: 100%;
+    objec-fit: cover;
 }
