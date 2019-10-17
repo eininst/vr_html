@@ -39,11 +39,14 @@ body {
     font-size: 20px;
     width: 20%;
     cursor: pointer;
+
 }
 
 .nav-item:hover {
     border-bottom: 2px solid #101137;
     padding-top: 2px;
+    color: #4a4a4a;
+    text-decoration: none;
 }
 
 .log-wap {
@@ -52,7 +55,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 2%;
+    padding-left: 3.5%;
 }
 
 .logo-title {
@@ -328,5 +331,5 @@ body {
 
 .footer-right-text {
     color: white;
-    margin-top:12px;
+    margin-top: 12px;
 }
