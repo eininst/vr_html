@@ -1,34 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<div style="float: left;width: 205px;font-size: 13px !important;line-height: 20px;" id="loading">
-    联盟导航加载中，请稍后...
-</div>
-<iframe id="zgboke" onreadystatechange=stateChangeIE(this) onload=stateChangeFirefox(this) style="visibility: hidden;padding: 0px; width: 100%; " height="0" src="https://fd3ormltd.720think.com/t/fd3ormltd" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-<script language="javascript">
- function stateChangeIE(_frame)
-    {
-       if (_frame.readyState=="interactive")
-     {
-          var loader = document.getElementById("loading");
-          loader.innerHTML      = "";
-          loader.style.display = "none";
-          _frame.style.visibility = "visible";
-         }
- }
-    function stateChangeFirefox(_frame)
-      {
-          var loader = document.getElementById("loading");
-          var f= document.getElementById("zgboke");
-          f.height="512";
-          loader.innerHTML      = "";
-          loader.style.display = "none";
-          _frame.style.visibility = "visible";
- }
-</script>
-</body>
-</html>
+<video class="video video-pc" autoplay="" loop="" muted=""
+       poster="//s1.ljcdn.com/vrlab/public/images/website/home/video-bg.6fb374778d2873dab8b0.jpg"
+       src="//vrlab-public.ljcdn.com/common/mp4/head-bg.mp4"></video>
