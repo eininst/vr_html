@@ -232,7 +232,7 @@ body {
 
 .service-item-wap {
     width: 31%;
-    height: 320px;
+    /*height: 320px;*/
     background-color: white;
     padding: 18px 18px 18px 18px;
 }
@@ -266,6 +266,7 @@ body {
     margin-top: 12px;
     padding-left: 12px;
     padding-right: 10px;
+    padding-bottom: 18px;
 }
 
 .logos {
