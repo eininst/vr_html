@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0,
+          user-scalable=yes”/>
+
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Cache-Control" content="no-transform"/>
     <meta name="description"/>
@@ -40,6 +43,7 @@
         .banner {
             padding-top: 0px;
             padding-bottom: 10px;
+            width: 100%;
         }
 
         .banner h1 {
@@ -57,7 +61,7 @@
         }
 
         .banner .swiper {
-            width: 1366px;
+            width: 80%;
             margin: 0 auto;
             position: relative;
         }
@@ -209,6 +213,25 @@
             background-size: auto;
             background-image: url(https://www.swiper.com.cn/demo/tfboys/images/images/curr_next.png);
         }
+
+        .more {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+        }
+
+        .more-btn {
+            border: 2px solid black;
+            color: black;
+            padding: 8px 44px 8px 44px;
+            background-color: white;
+            cursor: pointer;
+        }
+        .more-btn:hover{
+             background-color: #EEEEEE;
+        }
     </style>
 </head>
 <body>
@@ -220,8 +243,8 @@
 
     <div class="nav">
         <a class="nav-item">首页</a>
-        <a class="nav-item" href="service.html">产品中心</a>
-        <a class="nav-item">技术与服务</a>
+        <a class="nav-item" href="./product.html">产品中心</a>
+        <a class="nav-item" href="./service.html">技术与服务</a>
         <a class="nav-item">关于我们</a>
 
     </div>
@@ -229,6 +252,7 @@
 <div class="content">
     <video loop="loop" autoplay="autoplay" muted
            style="width: 100%;height:100%;object-fit: fill;">
+        <img src="./imgs/vr_custom_3.png" style="width: 100%;height: 100%;object-fit: cover;">
         <source src="https://video.wezhan.cn/d9f12c671d714c31bc0f42f788152614/31b889c17ea240d992ca4877cfe8789d-535bfb5e5004b4e4aecebe92ae4898b4-sd.mp4"
                 type="video/mp4">
     </video>
@@ -302,6 +326,11 @@
                         </div>
                     </div>
 
+                </div>
+
+
+                <div class="more">
+                    <div class="more-btn" onclick="more('./product.html')">更多</div>
                 </div>
             </div>
         </div>
@@ -390,7 +419,7 @@
         <div class="widge-content">
             <div class="service">
                 <div class="service-item-wap">
-                    <div class="service-item">
+                    <div class="service-item" onclick="more('./service.html')">
                         <img src="./imgs/service_1.png"/>
                         <div class="service-item-title">大疆无人机</div>
                         <div class="service-item-desc">
@@ -400,7 +429,7 @@
                 </div>
 
                 <div class="service-item-wap">
-                    <div class="service-item">
+                    <div class="service-item" onclick="more('./service.html')">
                         <img src="./imgs/service_2.png"/>
                         <div class="service-item-title">GOPRO7目/14目全景系统</div>
                         <div class="service-item-desc">
@@ -410,7 +439,7 @@
                 </div>
 
                 <div class="service-item-wap">
-                    <div class="service-item">
+                    <div class="service-item" onclick="more('./service.html')">
                         <img src="./imgs/service_3.png"/>
                         <div class="service-item-title">AUAR专业级VR摄影机</div>
                         <div class="service-item-desc">
@@ -509,7 +538,7 @@
             </div>
 
             <div class="footer-right">
-                <img src="./imgs/qrcode.png" />
+                <img src="./imgs/qrcode.png"/>
                 <div class="footer-right-text">扫一扫关注我们</div>
             </div>
         </div>
@@ -523,6 +552,9 @@
         crossorigin="anonymous"></script>
 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 <script type="application/javascript">
+    function more(url){
+        window.location.href = url;
+    }
     $(function () {
         var currentSwiper = new Swiper('.current-swiper', {
             loop: true,

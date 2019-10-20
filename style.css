@@ -129,7 +129,7 @@ body {
 }
 
 .ys-item-wap {
-    width: 1080px;
+    width: 70%;
     display: flex;
     justify-content: space-around;
     padding-bottom: 10px;
@@ -176,7 +176,7 @@ body {
 .vr-custom {
     display: flex;
     justify-content: space-between;
-    width: 1080px;
+    width:  70%;
 }
 
 .vr-custom-left {
@@ -225,7 +225,7 @@ body {
 
 .service {
     display: flex;
-    width: 1080px;
+    width: 70%;
     justify-content: space-around;
     padding-bottom: 10px;
 }
@@ -240,6 +240,7 @@ body {
 .service-item {
     background-color: rgba(245, 245, 245, 0.97);
     height: 100%;
+    cursor: pointer;
 }
 
 .service-item-wap img {
@@ -268,7 +269,7 @@ body {
 }
 
 .logos {
-    width: 1080px;
+    width: 70%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -298,7 +299,7 @@ body {
 }
 
 .footer-content {
-    width: 1024px;
+    width: 70%;
     display: flex;
     justify-content: space-between;
 }
@@ -325,7 +326,7 @@ body {
 }
 
 .footer-right img {
-    width: 108px;
+    width: 108  px;
     height: 100px;
 }
 

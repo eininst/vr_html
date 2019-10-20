@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes” />
+
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Cache-Control" content="no-transform"/>
     <meta name="description"/>
@@ -76,16 +78,15 @@
             display: flex;
             justify-content: center;
             width: 100%;
+            margin-top: 40px;
+            margin-bottom: 40px;
         }
 
         .service-widge {
             background-color: white;
             padding: 22px 22px 22px 32px;
             width: 1024px;
-            /*box-shadow: 0 2px 3px -1px black;*/
-            margin-top: 30px;
-            margin-bottom: 30px;
-            box-shadow:0 0 6px #EEEEEE;
+            box-shadow: 0 0 6px #EEEEEE;
         }
 
         .service-title-wap {
@@ -142,6 +143,35 @@
             margin-top: 14px;
             font-size: 12px;
         }
+
+        .service-info {
+            display: flex;
+            height: 100%;
+            width: 45%;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-flow: column;
+            padding-top: 3.5%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .service-info-title {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .service-info-title-2 {
+            font-size: 17px;
+            font-weight: bold;
+            margin-top: 1.2%;
+        }
+
+        .service-info-desc {
+            color: #bbbbbb;
+            font-size: 12px;
+            margin-top: 3.5%;
+        }
     </style>
 </head>
 <body>
@@ -152,9 +182,9 @@
     </div>
 
     <div class="nav">
-         <a class="nav-item" href="./index.html">首页</a>
-        <a class="nav-item">产品中心</a>
-        <a class="nav-item">技术与服务</a>
+        <a class="nav-item" href="./index.html">首页</a>
+        <a class="nav-item" href="./product.html">产品中心</a>
+        <a class="nav-item" href="./service.html">技术与服务</a>
         <a class="nav-item">关于我们</a>
     </div>
 
@@ -174,7 +204,7 @@
                 <div class="service-split">
                 </div>
                 <div class="service-title">
-                    国际顶级团队 软硬一体化技术实力 闭环式服务模式
+                    全国首家8K-VR航拍团队，顶级设备追求最佳拍摄质量
                 </div>
 
             </div>
@@ -195,7 +225,7 @@
                     </div>
                     <div class="service-block-name">GOPRO7目/14目全景系统</div>
                     <div class="service-block-desc">
-                    8K超清全景视频拍摄设备，超强表现力PROTUNE、SUPERVIEW、夜拍等模式满足各种环境下拍摄需求
+                        8K超清全景视频拍摄设备，超强表现力PROTUNE、SUPERVIEW、夜拍等模式满足各种环境下拍摄需求
                     </div>
                 </div>
 
@@ -205,8 +235,78 @@
                     </div>
                     <div class="service-block-name">AUAR专业级VR摄影机</div>
                     <div class="service-block-desc">
-                    专业10K/3D/VR拍摄设备，实时捕捉/重建三维场景，高清质量轻松拍摄，细节丝丝入扣完美还原环境，无缝图像阵列
+                        专业10K/3D/VR拍摄设备，实时捕捉/重建三维场景，高清质量轻松拍摄，细节丝丝入扣完美还原环境，无缝图像阵列
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="service-wap">
+        <div class="service-widge">
+            <div class="service-title-wap">
+                <div class="service-split">
+                </div>
+                <div class="service-title">
+                    国际顶级团队 软硬一体化技术实力 闭环式服务模式
+                </div>
+
+            </div>
+            <div style="margin-top: 30px;height: 100%;padding-bottom: 20px;">
+                <div style="width: 100%; display: flex">
+                    <img src="https://nwzimg.wezhan.cn/contents/sitefiles2034/10172454/images/10714365.jpg"
+                         style="width: 55%;height: 320px;object-fit: cover;">
+                    <div class="service-info">
+                        <div class="service-info-title">
+                            中国顶级
+                        </div>
+                        <div class="service-info-title-2">
+                            空中VR影像内容拍摄团队
+                        </div>
+                        <div class="service-info-desc">
+                            致力于电影级VR摄影内容的创新与实现，囊括该行业的行家能手，经验丰富
+                        </div>
+                    </div>
+                </div>
+
+
+                <div style="width: 100%; display: flex; margin-top: 40px;">
+
+                    <div class="service-info">
+                        <div class="service-info-title">
+                            行业顶层
+                        </div>
+                        <div class="service-info-title-2">
+                            技术团队支撑
+                        </div>
+                        <div class="service-info-desc">
+                            为旅游行业解决方案提供坚实底层建设基础，技术基础夯实
+                        </div>
+                    </div>
+
+                    <img src="https://nwzimg.wezhan.cn/contents/sitefiles2034/10172454/images/10714365.jpg"
+                         style="width: 55%;height: 320px;object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="service-wap" style="margin-bottom: 50px;">
+        <div class="service-widge" style="position: relative">
+            <div class="service-title-wap" style="z-index: 9;">
+                <div class="service-split">
+                </div>
+                <div class="service-title">
+                    国际顶级团队 软硬一体化技术实力 闭环式服务模式
+                </div>
+
+            </div>
+            <div style="margin-top: 20px;height: 100%;padding-bottom: 20px;display: flex;justify-content: center;align-items: center;height: 400px;">
+                <div>
+                    <img src="./imgs/service.png"
+                         style="width: 100%;height: 340px;object-fit: cover;"/>
                 </div>
             </div>
         </div>
