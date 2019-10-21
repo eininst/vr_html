@@ -19,8 +19,9 @@ body {
     top: 0;
     z-index: 9999;
     background-color: white;
+    border-bottom: 1px solid #EEEEEE;
     /*border-bottom: 1px solid black;*/
-    box-shadow: 0 2px 3px -1px #101137;
+    /*box-shadow: 0 2px 3px -1px #101137;*/
 }
 
 .nav {
