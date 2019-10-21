@@ -287,6 +287,10 @@
         marker.setMap(map);
     }
 
+    function closeInfoWindow() {
+        map.clearInfoWindow();
+    }
+
     //构建自定义信息窗体
     function createInfoWindow(title, content) {
         var info = document.createElement("div");
@@ -297,14 +301,14 @@
         // 定义顶部标题
         var top = document.createElement("div");
         var titleD = document.createElement("div");
-        // var closeX = document.createElement("img");
+        var closeX = document.createElement("img");
         top.className = "info-top";
         titleD.innerHTML = title;
-        // closeX.src = "https://webapi.amap.com/images/close2.gif";
-        // closeX.onclick = closeInfoWindow;
+        closeX.src = "https://webapi.amap.com/images/close2.gif";
+        closeX.onclick = closeInfoWindow;
 
         top.appendChild(titleD);
-        // top.appendChild(closeX);
+        top.appendChild(closeX);
         info.appendChild(top);
 
         // 定义中部内容
@@ -326,6 +330,7 @@
         info.appendChild(bottom);
         return info;
     }
+
 
     //实例化信息窗体
     var title = '中宏未来视觉',
@@ -352,8 +357,8 @@
             resizeEnable: true,
             rotateEnable: true,
             pitchEnable: true,
-            zoom: 16,
-            pitch: 45,
+            zoom: 17,
+            pitch: 50,
             rotation: -240,
             viewMode: '3D',//开启3D视图,默认为关闭
             buildingAnimation: true,//楼块出现是否带动画
