@@ -48,6 +48,12 @@ body {
     color: #4a4a4a;
     text-decoration: none;
 }
+.nav-item-active{
+    border-bottom: 2px solid #101137;
+    padding-top: 2px;
+    color: #4a4a4a;
+    text-decoration: none;
+}
 
 .log-wap {
     width: 40%;
