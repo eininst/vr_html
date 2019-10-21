@@ -548,6 +548,14 @@
     </div>
 
 </div>
+<script type="application/javascript">
+
+    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+        // $('#img_cover').show();
+        document.getElementById("video_cover").style = "display:none;";
+    }
+
+</script>
 <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 <script type="application/javascript">
@@ -557,14 +565,7 @@
     }
 
     $(function () {
-        if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-            // $('#img_cover').show();
-            $('#video_cover').hide();
-        } else {
-            // $('#video_cover').hide();
-            // $('#img_cover').show();
-            // alert('PC端')
-        }
+
 
         var currentSwiper = new Swiper('.current-swiper', {
             loop: true,
@@ -593,10 +594,6 @@
         });
         currentSwiper.controller.control = [leftSwiper, rightSwiper];
 
-
-        window.setInterval(function () {
-            console.log(1);
-        }, 2000);
 
         $('.slide1').click(function () {
             window.open('https://67fbza5ax.wasee.com/s/67fbza5ax?def_sid=341882&ath=44.459749995262165&atv=8.457811136848756');
