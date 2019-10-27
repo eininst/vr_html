@@ -20,7 +20,6 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-¬
 body {
     width: 100%;
     height: 100%;
@@ -28,7 +27,7 @@ body {
 }
 
 .nav-wap {
-    height: 80px;
+    height: 90px;
     display: flex;
     width: 100%;
     align-items: center;
@@ -49,7 +48,7 @@ body {
 }
 
 .nav-item {
-    height: 80px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +96,7 @@ body {
 
 .log-wap img {
     width: 90px;
-    height: 50px;
+    height: 55px;
     object-fit: cover;
 }
 
@@ -105,7 +104,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .widge {
@@ -208,7 +207,7 @@ body {
 .vr-custom {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 68%;
 }
 
 .vr-custom-left {

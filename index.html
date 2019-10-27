@@ -455,7 +455,7 @@
             <div class="vr-custom">
                 <div class="vr-custom-left">
                     <div class="vr-custom-img-wap">
-                        <img src="./imgs/vr_custom_1.png"/>
+                        <img src="./imgs/vr_custom_1.png" id="vr-custom1"/>
                         <div class="vr-custom-info">
                             <div class="vr-custom-info-title">飞夺泸定桥</div>
                             <div class="vr-custom-info-desc">长征经典战役之一VR版</div>
@@ -464,14 +464,14 @@
                 </div>
                 <div class="vr-custom-right">
                     <div class="vr-custom-img-wap">
-                        <img src="./imgs/vr_custom_2.png"/>
+                        <img src="./imgs/vr_custom_2.png" id="vr-custom2"/>
                         <div class="vr-custom-info">
                             <div class="vr-custom-info-title">VR汽车拆解</div>
                             <div class="vr-custom-info-desc">随时随地，说看就看</div>
                         </div>
                     </div>
                     <div class="vr-custom-img-wap">
-                        <img src="./imgs/vr_custom_3.png"/>
+                        <img src="./imgs/vr_custom_3.png" id="vr-custom3"/>
                         <div class="vr-custom-info">
                             <div class="vr-custom-info-title">穹幕体验</div>
                             <div class="vr-custom-info-desc">沉浸式、互动式体验</div>
@@ -495,12 +495,12 @@
         </div>
 
         <div style="width: 100%;display: flex;justify-content: center;margin-top: 20px;">
-            <div style="width: 50%;font-size: 14px;">
+            <div style="width: 60%;font-size: 14px;">
                 可用于所有传统直播的应用场景，如：赛事庆典、新品发布会，教育医疗、展会论坛。观众可在手机、电视、大屏幕上720°放大缩小全域超高清流畅环视直播现场。
             </div>
         </div>
         <div class="widge-content">
-            <div style="width: 50%;">
+            <div style="width: 60%;">
                 <div class="vr-live">
                     <div class="vr-img">
                         <img src="./imgs/zb1.png"/>
@@ -534,22 +534,22 @@
                 <div class="ys-item">
                     <div class="ys-item-img"><span class="iconfont">&#xe6a6;</span></div>
                     <div class="ys-item-content">整合运用传统媒体、新媒体、科技媒体和自媒体优势</div>
-                    <button class="to-info-btn">了解详情</button>
+                    <button class="to-info-btn" onclick="more('./service.html')">了解详情</button>
                 </div>
                 <div class="ys-item">
                     <div class="ys-item-img"><span class="iconfont">&#xe685;</span></div>
                     <div class="ys-item-content">领先的VR全景、视频、大像素、和直播成像技术与设备</div>
-                    <button class="to-info-btn">了解详情</button>
+                    <button class="to-info-btn" onclick="more('./product.html')">了解详情</button>
                 </div>
                 <div class="ys-item">
                     <div class="ys-item-img"><span class="iconfont">&#xe67c;</span></div>
                     <div class="ys-item-content">1：1真实还原立体成像效果，720度沉浸互动式观看</div>
-                    <button class="to-info-btn">了解详情</button>
+                    <button class="to-info-btn" onclick="more('./product.html')">了解详情</button>
                 </div>
                 <div class="ys-item">
                     <div class="ys-item-img"><span class="iconfont">&#xe616;</span></div>
                     <div class="ys-item-content">专业的拍摄制作、传播推广、经营管理服务团队</div>
-                    <button class="to-info-btn">了解详情</button>
+                    <button class="to-info-btn" onclick="more('./service.html')">了解详情</button>
                 </div>
             </div>
         </div>
@@ -680,7 +680,7 @@
                     地址：四川省成都市青羊区一环路西一段百花港148号
                 </div>
                 <div class="footer-left-item">
-                    邮箱：name@example.xxx
+                    邮箱：eininst@aliyun.com
                 </div>
             </div>
 
@@ -697,6 +697,9 @@
     if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
         // $('#img_cover').show();
         document.getElementById("video_cover").style = "display:none;";
+        document.getElementById("vr-custom1").style = "height:380px";
+        document.getElementById("vr-custom2").style = "height:145px";
+        document.getElementById("vr-custom3").style = "height:145px";
     }
 
 </script>
