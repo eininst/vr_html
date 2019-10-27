@@ -10,9 +10,9 @@
     <meta name="keywords"/>
     <meta name="renderer" content="webkit"/>
     <meta name="applicable-device" content="pc"/>
-    <link rel="icon" href="/Content/images/favicon.ico"/>
-    <link rel="shortcut icon" href="/Content/images/favicon.ico"/>
-    <link rel="bookmark" href="/Content/images/favicon.ico"/>
+    <link rel="icon" href="./imgs/logo.ico"/>
+    <link rel="shortcut icon" href="./imgs/logo.ico"/>
+    <link rel="bookmark" href="./imgs/logo.ico"/>
 
     <meta charset="UTF-8">
     <title>中宏未来</title>
@@ -45,7 +45,7 @@
         .header-wap {
             height: 400px;
             width: 100%;
-            background: url("https://nwzimg.wezhan.cn/contents/sitefiles2034/10172454/images/10714249.jpg");
+            background: url("./imgs/nav3.jpg");
             background-repeat: no-repeat;
             background-position: 50% 50%;
             background-attachment: scroll;
@@ -56,18 +56,28 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            align-content: center;
+            justify-items: center;
+            flex-flow: column;
+            padding-top: 72px;
         }
 
         .header-block {
-            height: 112px;
-            width: 342px;
-            background: rgba(0, 0, 0, 0.7);
+            width: 70%;
             display: flex;
-            align-items: center;
-            justify-content: center;
             color: white;
-            font-size: 52px;
+            font-size: 34px;
             font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .header-text {
+            width: 70%;
+            display: flex;
+            color: white;
+            font-size: 16px;
+            /*font-weight: bold;*/
+            margin-top: 8px;
         }
 
         .service-content {
@@ -85,7 +95,7 @@
         .service-widge {
             background-color: white;
             padding: 22px 22px 22px 32px;
-            width: 1024px;
+            width: 70%;
             box-shadow: 0 0 6px #EEEEEE;
         }
 
@@ -183,20 +193,29 @@
 
     <div class="nav">
         <a class="nav-item" href="./index.html">首页</a>
-        <a class="nav-item" href="./product.html">产品中心</a>
-        <a class="nav-item nav-item-active" href="./service.html">技术与服务</a>
+        <a class="nav-item" href="./product.html">
+            VR全景
+        </a>
+        <a class="nav-item" href="./custom.html">
+            VR定制
+        </a>
+        <a class="nav-item nav-item-active">技术与服务</a>
         <a class="nav-item" href="./about.html">联系我们</a>
     </div>
-
-
 </div>
 
 <div class="header-wap">
     <div class="header-block">
         技术与服务
     </div>
-</div>
 
+    <div class="header-text">
+        顶级设备追求最佳拍摄质量, 领先的行业服务体系架构
+    </div>
+    <div class="header-text">
+        国际顶级团队软硬一体化技术实力, 闭环式服务模式
+    </div>
+</div>
 <div class="service-content">
     <div class="service-wap">
         <div class="service-widge">
@@ -299,14 +318,14 @@
                 <div class="service-split">
                 </div>
                 <div class="service-title">
-                    国际顶级团队 软硬一体化技术实力 闭环式服务模式
+                   领先的行业服务体系架构
                 </div>
 
             </div>
             <div style="margin-top: 20px;height: 100%;padding-bottom: 20px;display: flex;justify-content: center;align-items: center;height: 400px;">
                 <div>
                     <img src="./imgs/service.png"
-                         style="width: 100%;height: 340px;object-fit: cover;"/>
+                         style="width: 100%;height: 400px;object-fit: cover;"/>
                 </div>
             </div>
         </div>
