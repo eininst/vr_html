@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>中宏未来</title>
+    <meta name="keyword"
+          content="中宏未来, VR, 媒体整合营销领导者">
+    <meta name="description"
+          content="四川中宏未来视觉文化传媒有限公司主要融合传统媒体、新媒体和自媒体，融合党、政府、人民群众和科技的力量">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Cache-Control" content="no-transform"/>
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0,
           user-scalable=yes”/>
 
-    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">-->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="Cache-Control" content="no-transform"/>
-    <meta name="description"/>
-    <meta name="keywords"/>
     <meta name="renderer" content="webkit"/>
     <meta name="applicable-device" content="pc"/>
     <link rel="icon" href="./imgs/logo.ico"/>
@@ -16,7 +19,7 @@
     <link rel="bookmark" href="./imgs/logo.ico"/>
 
     <meta charset="UTF-8">
-    <title>中宏未来</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
@@ -124,11 +127,8 @@
             cursor: pointer;
             background: url(./imgs/s5.jpeg);
             height: 100%;
-
             width: 100%;
-
             overflow: hidden;
-
             background-size: 100% 100%;
         }
 
@@ -256,11 +256,6 @@
             background-color: #EEEEEE;
         }
 
-        .vr-panorama {
-            width: 66%;
-            height: 600px;
-        }
-
         .vr-img {
             width: 100%;
         }
@@ -302,10 +297,7 @@
            poster="s1.ljcdn.com/vrlab/public/images/website/home/video-bg.6fb374778d2873dab8b0.jpg"
            src="https://video.wezhan.cn/d9f12c671d714c31bc0f42f788152614/31b889c17ea240d992ca4877cfe8789d-535bfb5e5004b4e4aecebe92ae4898b4-sd.mp4"
            style="width: 100%;height:100%;object-fit: fill;">
-        <!--<source src="https://video.wezhan.cn/d9f12c671d714c31bc0f42f788152614/31b889c17ea240d992ca4877cfe8789d-535bfb5e5004b4e4aecebe92ae4898b4-sd.mp4"-->
-        <!--type="video/mp4">-->
     </video>
-    <!--<img id="img_cover" src="./imgs/vr_custom_3.png" style="width: 100%;height: 100%;object-fit: cover;display: none;"/>-->
 
     <div class="widge">
         <div class="widge-title-wap">
@@ -323,11 +315,7 @@
             </div>
         </div>
     </div>
-    <!--<div class="widge2">-->
-    <!--<div style="display: flex;justify-content: center;align-items: center;width:100%;height:100%;">-->
-    <!--<div id="panorama1" class="vr-panorama"></div>-->
-    <!--</div>-->
-    <!--</div>-->
+
     <div class="widge2">
         <div class="widge-title-wap">
             <div class="widge-title1">VR全景</div>
@@ -397,7 +385,6 @@
                                 </p>
                             </div>
 
-
                         </div>
                     </div>
 
@@ -432,9 +419,7 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
 
                 <div class="more">
                     <div class="more-btn" onclick="more('./product.html')">更多</div>
@@ -511,7 +496,7 @@
                     <div class="vr-img">
                         <img src="./imgs/zb2.png"/>
                     </div>
-                     <div class="vr-img">
+                    <div class="vr-img">
                         <img src="./imgs/zb3.png"/>
                     </div>
                     <div class="vr-img">
@@ -704,10 +689,8 @@
 
 </script>
 <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.4/build/pannellum.js"></script>
 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 <script type="application/javascript">
-
     function more(url) {
         window.location.href = url;
     }
@@ -740,7 +723,6 @@
         });
         currentSwiper.controller.control = [leftSwiper, rightSwiper];
 
-
         $('.slide1').click(function () {
             window.open('https://67fbza5ax.wasee.com/s/67fbza5ax?def_sid=341882&ath=44.459749995262165&atv=8.457811136848756');
         });
@@ -749,14 +731,6 @@
         });
         $('.slide3').click(function () {
             window.open('https://e180igz32.720think.com/t/e180igz32?def_sid=416933&ath=84.00166666666667&atv=9.998333333333335');
-        });
-
-
-        pannellum.viewer('panorama1', {
-            "type": "equirectangular",
-            "panorama": "./imgs/p1.jpeg",
-            "autoLoad": true,
-            "autoRotate": -2
         });
     });
 </script>
